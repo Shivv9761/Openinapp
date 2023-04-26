@@ -18,8 +18,8 @@ import LineChartUser from "../components/LineChartUser";
 import PieChartUser from "./PieChartUser";
 function AuthUser({ session, handleSignout }) {
   return (
-    <div className=" bg-[#DDDDDD] flex   p-6 rounded-2xl">
-      <div className="bg-black  w-[280px] rounded-3xl min-h-[100vh]">
+    <div className=" bg-[#DDDDDD] flex lg:flex-row flex-col  p-6 rounded-2xl">
+      <div className="bg-black  lg:w-[280px] w-full  rounded-3xl  lg:min-h-[100vh]">
         <div>
           <h1 className=" text-center text-white ml-5  text-4xl font-bold mt-16">
             Board.
@@ -27,7 +27,7 @@ function AuthUser({ session, handleSignout }) {
         </div>
 
         <div className="flex flex-col justify-between items-center min-h-[80%]">
-          <div className="ml-2 mt-14 gap-16 flex flex-col">
+          <div className="ml-2 mt-14 lg:gap-16 gap-5 flex lg:flex-col flex-row">
             <div className="flex items-center gap-3">
               <AiTwotonePieChart className="w-12 h-8" color="white" />
               <h1 className="text-white text-[18px]">Dashboard</h1>
@@ -49,7 +49,7 @@ function AuthUser({ session, handleSignout }) {
               <h1 className="text-white text-[18px]">Settings</h1>
             </div>
           </div>
-          <div className=" flex flex-col gap-3 opacity-70">
+          <div className=" flex lg:flex-col flex-row gap-3 opacity-70">
             <p className="text-white">Help</p>
             <p className="text-white">Contact Us</p>
             <p className="text-white  cursor-pointer" onClick={handleSignout}>
