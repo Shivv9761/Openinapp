@@ -12,7 +12,11 @@ function Login() {
 
     async function handleGoogleSignin() {
         console.log('first')
+<<<<<<< HEAD
         signIn('google', { callbackUrl: "http://localhost:3000" })
+=======
+        signIn('google',{callbackUrl:"https://fastidious-pudding-b354a5.netlify.app"})
+>>>>>>> 802d4ca4d24c2ffaab16bcad4d4e60304959fc78
     }
 
     function clickHandler(){
