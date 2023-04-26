@@ -16,12 +16,17 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+/* body {
+  color: white;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+
+body{
+  background-color: #DDDDDD;
 }
