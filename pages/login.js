@@ -12,7 +12,7 @@ function Login() {
 
     async function handleGoogleSignin(){
         console.log('first')
-        signIn('google',{callbackUrl:"https://dashboard-kappa-tan.vercel.app"})
+        signIn('google',{callbackUrl:"openinapp-delta.vercel.app"})
     }
 
   return (
