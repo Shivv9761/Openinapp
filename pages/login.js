@@ -73,7 +73,7 @@ function Login() {
                     </div>
                 </form>
 
-                <p className="mx-auto mt-2 text-[#858585]">Don&apos;t have an account ? <Link href={"/AuthUser"} className="text-[#346BD4]">Register here</Link></p>
+                <p className="mx-auto mt-2 text-[#858585]">Don&apos;t have an account ? <Link href={"/AuthUser"} className="text-[#346BD4]">Demo Login If Google Auth not work</Link></p>
             </div>
         </Layout>
     )
