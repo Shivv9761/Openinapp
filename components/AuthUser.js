@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from 'next/image'
 import {
   AiOutlineSearch,
   AiOutlineLike,
@@ -80,7 +80,7 @@ function AuthUser({ session, handleSignout }) {
               width={25}
               height={10}
               className="rounded-full mr-2"
-            ></img>
+            />
           </div>
         </div>
         <div className="flex w-full  gap-8  justify-between">
@@ -123,7 +123,7 @@ function AuthUser({ session, handleSignout }) {
 
           <div className="bg-white   rounded-[20px]  flex flex-col gap-7 p-9">
             <div className=" w-full flex justify-between">
-              <h1 className="font-bold text-2xl">Today's Schedule</h1>
+              <h1 className="font-bold text-2xl">Today&#39;s Schedule</h1>
               <p className="opacity-70">{`See All >`}</p>
             </div>
 

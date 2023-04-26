@@ -70,7 +70,7 @@ function Login() {
             </div>
         </form>
     
-        <p className='mx-auto mt-2 text-[#858585]'>Don't have an account ? <Link href={"/register"} className='text-[#346BD4]'>Register here</Link></p>
+        <p className="mx-auto mt-2 text-[#858585]">Don&apost have an account ? <Link href={"/register"} className="text-[#346BD4]">Register here</Link></p>
     </div>
     </Layout>
   )
