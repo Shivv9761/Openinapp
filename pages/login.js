@@ -15,9 +15,7 @@ function Login() {
         signIn('google', { callbackUrl: "http://localhost:3000" })
     }
 
-    function clickHandler(){
-        useSession(true);
-    }
+   
     return (
         <Layout>
             <Head>
