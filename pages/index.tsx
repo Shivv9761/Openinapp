@@ -32,7 +32,7 @@ function handleSignout(){
       <Head>
         <title>Home Page</title>
       </Head>
-     
+      {/* <AuthUser session={session} handleSignout={handleSignout}/> */}
       {session ? (<AuthUser session={session} handleSignout={handleSignout}/>):(UnAuthUser())}
       
     </div>
